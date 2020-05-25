@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+#divMain{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+main, header, footer{
+    position: relative;
+}
+header{
+    background-color: gray;
+}
+.liHeader{
+    display: inline-block;
+    margin-top: 30px; 
+    margin-right: 10PX;
+    padding-left: 109px;
+}
+.liHeader a{
+    text-decoration: none;
+}
+#navHeader{
+    display: block;
+    /* padding: 20px; */
+    /* margin :10px; */
+    width: 960PX;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#imgMain{
+clear: both;  
+margin-top: 20px;
+margin-bottom: 20px;  
+}
+#ulHeader{
+    display: block;
+   float: right;
+   /* margin-right: 35%; */
+}
+.subBanner{
+    padding-right: 26px;
+    margin-bottom: 20px;  
+
+}
+#featuredSectionBanner{
+    margin-right: 15px;
+    margin-bottom: 20px;
+    float: left;
+}
+#divfeaturedSectionBanner p:hover{
+    overflow: scroll;
+}
+#divfeaturedSectionBanner p{
+    overflow: hidden;
+    height: 332px;
+    width: 465px ;
+    margin-top: 10px;
+}
+#divfeaturedSectionBanner button{
+    margin-top: 10px;
+    padding:5px 10px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+#divfeaturedSectionBanner button:hover{
+    transition-delay: 350ms;
+    background-color: yellow;
+}
+h3{
+    font-weight: bold;
+    font-size: 110%;
+}
+footer div{
+    background-color: gray;
+    height: 70px;
+    margin-top:30px;
+}
